@@ -9,8 +9,8 @@ import { CategoryModule } from './category/category.module';
   imports: [
     TypeOrmModule.forRoot({
       type: 'mssql',
-      host: process.env.DB_SERVER,
-      port: parseInt(process.env.DB_PORT),
+      host: process.env.DB_SERVER || '127.0.0.1',
+      port: parseInt(process.env.DB_PORT) || 1433,
       username: process.env.DB_USER,
       password: process.env.DB_PASS,
       database: process.env.DB_NAME,

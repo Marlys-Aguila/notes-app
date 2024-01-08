@@ -50,6 +50,8 @@ Don't forget to create an .env file in the root of this backend folder and assig
 DB_USER=your-db-user
 DB_PASS=your-db-password
 DB_NAME=your-db-name
+DB_SERVER=your-db-name
+DB_PORT=port
 ```
 
 The database is created in **SQL Server** and you can refer to the `DB-README.md` file to access the schema.
