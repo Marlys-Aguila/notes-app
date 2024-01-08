@@ -1,0 +1,29 @@
+
+/* .card-note {
+    max-width: 600px; 
+    margin-bottom: 20px;
+    background-color: #fffaf0;
+  } */
+
+.card-note {
+  width: 400px; 
+  margin-bottom: 20px;
+  background-color: #fffaf0;
+}
+  
+.card-note .card-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 550px;
+}
+  
+.card-note .card-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; 
+  -webkit-box-orient: vertical;
+  max-height: 4.5em; 
+}
+  
